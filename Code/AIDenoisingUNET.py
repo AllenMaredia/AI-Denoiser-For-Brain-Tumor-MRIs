@@ -45,7 +45,7 @@ def normalize_image(image):
     return image / np.max(image)
 
 # Load the pre-trained model
-unet_model = load_model(r'C:\Users\allen\unet_model.h5')
+unet_model = load_model(r'C:')
 
 # GUI function to denoise images
 def gui_denoise_images():
