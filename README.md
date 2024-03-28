@@ -2,7 +2,7 @@
 
 Training a U-net and autoencoder model to denoise MRIs of glioma tumors.
 
-Packages needed:
+# Packages needed:
 
 -Numpy
 
@@ -17,7 +17,7 @@ Packages needed:
 -Tkinter
 
 
-Execution Instructions:
+# Execution Instructions:
 
 -Download the files to train the models and run (UNetTrain.py, AutoEncoderTrain.py)
 
