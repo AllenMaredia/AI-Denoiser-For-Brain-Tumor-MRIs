@@ -36,7 +36,7 @@ def calculate_metrics(original, denoised):
     return psnr_value, ssim_value, mse_value
 
 # Load the pre-trained autoencoder model
-autoencoder_model = load_model(r'C:\Users\allen\autoencoder_model_1102.h5')
+autoencoder_model = load_model(r'C:')
 
 # GUI function to denoise images
 def gui_denoise_images():
