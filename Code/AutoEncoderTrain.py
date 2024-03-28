@@ -55,7 +55,7 @@ def autoencoder(input_size=(256, 256, 1)):
     return model
 
 # Directory containing your MRI images
-image_dir = r'C:\Users\allen\Desktop\Training\glioma'
+image_dir = r'C:'
 
 # Load the dataset
 original_images, noisy_images = load_images_from_directory(image_dir)
